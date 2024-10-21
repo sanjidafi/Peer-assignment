@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class AgeApp {
     public static void main(String[] args) {
+        //enter your age.
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
@@ -29,6 +30,6 @@ public class AgeApp {
             System.out.println("Happy mid-life!");
         }
 
-        scanner.close();
+        scanner.close(); // close the scanner.
     }
 }
